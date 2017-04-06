@@ -5,7 +5,7 @@
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "cmd+.",
+    "key": "cmd+/",
     "command": "workbench.action.terminal.toggleTerminal"
   },
   {
