@@ -1,7 +1,8 @@
-// Place your settings in this file to overwrite the default settings*
+// Place your settings in this file to overwrite the default settings
 {
   "editor.fontSize": 14,
   "editor.tabSize": 2,
+  "editor.formatOnPaste": false,
   "editor.renderWhitespace": "boundary",
   "extensions.autoUpdate": true,
   "files.associations": {
@@ -19,19 +20,20 @@
   "editor.minimap.enabled": true,
   "todohighlight.keywords": [
     {
-      "text": "TODO", // custom text to be highlighted*
-      "color": "#fff", // the text color, any css color identifier is valid*
-      "backgroundColor": "#ffb426", // the text background color*
-      "overviewRulerColor": "grey" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.*
+      "text": "TODO", // custom text to be highlighted
+      "color": "#fff", // the text color, any css color identifier is valid
+      "backgroundColor": "#ffb426", // the text background color
+      "overviewRulerColor": "grey" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.
     },
     {
-      "text": "FIXME", // custom text to be highlighted*
-      "color": "#fff", // the text color, any css color identifier is valid*
-      "backgroundColor": "#ee5787", // the text background color*
-      "overviewRulerColor": "grey" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.*
+      "text": "FIXME", // custom text to be highlighted
+      "color": "#fff", // the text color, any css color identifier is valid
+      "backgroundColor": "#ee5787", // the text background color
+      "overviewRulerColor": "grey" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.
     }
   ],
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
-  "window.openFoldersInNewWindow": "on"
+  "window.openFoldersInNewWindow": "on",
+  "window.newWindowDimensions": "inherit"
 }
